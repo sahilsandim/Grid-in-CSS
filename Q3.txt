@@ -1,0 +1,28 @@
+---->grid-auto-rows
+1-This property is used to set the size of rows in grid.
+2-It specifies the size of the rows that created new grid.
+
+.grid-container{
+    display: grid;
+    grid-auto-rows: 100px;
+}
+
+If you have more items than the rows then additional rows is created with 
+height of 100px.
+
+
+
+
+---->grid auto-columns
+1-This property is used to set the size of columns in grid.
+2-It specifies the size of the columns that created new grid.
+
+.grid-container{
+    display: grid;
+    grid-auto-columns: 100px;
+}
+
+
+If you have more items than the rows then additional columns is created with 
+height of 100px.
+

@@ -1,0 +1,25 @@
+Difference between justify-items and justify-self:-
+
+---->justify-items<-----
+
+1-This property is is based on grid horizontal alignment
+  which control grid-items in an grid-container.
+2-It sets default properties for all items.
+
+.grid-container{
+    display: grid;
+    justify-items: start/center/end;
+}
+
+start:- aligned to starting point of an grid-area.
+center:- aligned to center point of an grid area.
+end:- aligned to end poit of an grid area.
+
+---->justify-self<----
+
+1-This property is alligned to individual items in grid area.
+2-It helps to override individual items in grid.
+
+.grid-item{
+    justify-self: start/ center/ end;
+}
